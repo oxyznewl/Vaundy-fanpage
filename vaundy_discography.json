@@ -1,0 +1,820 @@
+[
+    {
+        "db_id": "disco54",
+        "category": "DIGITAL SINGLE",
+        "title": "シンギュラリティ",
+        "release_date": "2026/02/11",
+        "songs": [
+            "シンギュラリティ(「テート美術館 － YBA&BEYOND 世界を変えた90s 英国アート」公式テーマソング)"
+        ],
+        "image_url": "https://s3-aop.plusmember.jp/prod/public/vaundy/contents/discography/2f5bee207a97bdf875ba23f0dd4fc0e2.jpeg",
+        "local_image_path": "vaundy_images\\disco54_シンギュラリティ.jpeg",
+        "links": {
+            "play": "https://lnk.to/_singularity",
+            "youtube": "https://youtu.be/rMJFBmv9sAo"
+        }
+    },
+    {
+        "db_id": "disco53",
+        "category": "DIGITAL SINGLE",
+        "title": "呼び声",
+        "release_date": "2025/12/24",
+        "songs": [
+            "呼び声(NHK総合「Vaundy 18祭」テーマソング)"
+        ],
+        "image_url": "https://s3-aop.plusmember.jp/prod/public/vaundy/contents/discography/e28a32abdcd73a384f6fd574509113bd.jpeg",
+        "local_image_path": "vaundy_images\\disco53_呼び声.jpeg",
+        "links": {
+            "play": "https://lnk.to/Yobigoe",
+            "youtube": null
+        }
+    },
+    {
+        "db_id": "disco51",
+        "category": "DIGITAL SINGLE",
+        "title": "軌跡",
+        "release_date": "2025/11/26",
+        "songs": [
+            "軌跡(TBS「世界遺産」新テーマ曲)"
+        ],
+        "image_url": "https://s3-aop.plusmember.jp/prod/public/vaundy/contents/discography/3d650ab5ff27f7e7d45897bb9413ffe2.jpeg",
+        "local_image_path": "vaundy_images\\disco51_軌跡.jpeg",
+        "links": {
+            "play": "https://lnk.to/kiseki_vaundy",
+            "youtube": "https://youtu.be/11S9O3bPuNw"
+        }
+    },
+    {
+        "db_id": "disco50",
+        "category": "DIGITAL SINGLE",
+        "title": "偉生人",
+        "release_date": "2025/10/29",
+        "songs": [
+            "偉生人(2021年NHK大河ドラマ『青天を衝け』インスパイアードソング)"
+        ],
+        "image_url": "https://s3-aop.plusmember.jp/prod/public/vaundy/contents/discography/3cbece2325cd701bc735f5ecd9e6dede.jpeg",
+        "local_image_path": "vaundy_images\\disco50_偉生人.jpeg",
+        "links": {
+            "play": "https://lnk.to/Vaundy_Iseijin",
+            "youtube": "https://youtu.be/aDaWuvpB_Kw"
+        }
+    },
+    {
+        "db_id": "disco49",
+        "category": "DIGITAL SINGLE",
+        "title": "忘れる前に",
+        "release_date": "2025/09/30",
+        "songs": [
+            "忘れる前に(東京メトロ「Find my Tokyo.」CMソング)"
+        ],
+        "image_url": "https://s3-aop.plusmember.jp/prod/public/vaundy/contents/discography/292c76a193b09f1725fedb54b8c122c6.jpeg",
+        "local_image_path": "vaundy_images\\disco49_忘れる前に.jpeg",
+        "links": {
+            "play": "https://lnk.to/wasurerumaeni",
+            "youtube": null
+        }
+    },
+    {
+        "db_id": "disco48",
+        "category": "DIGITAL SINGLE",
+        "title": "ずっとラブソング",
+        "release_date": "2025/08/27",
+        "songs": [
+            "ずっとラブソング"
+        ],
+        "image_url": "https://s3-aop.plusmember.jp/prod/public/vaundy/contents/discography/6cbfa28df829232b89669fe43143a991.jpeg",
+        "local_image_path": "vaundy_images\\disco48_ずっとラブソング.jpeg",
+        "links": {
+            "play": "https://lnk.to/zutto_love_song",
+            "youtube": "https://youtu.be/wriTi0J_-1A"
+        }
+    },
+    {
+        "db_id": "disco47",
+        "category": "DIGITAL SINGLE",
+        "title": "再会",
+        "release_date": "2025/07/13",
+        "songs": [
+            "再会(TVアニメ「光が死んだ夏」オープニング主題歌)"
+        ],
+        "image_url": "https://s3-aop.plusmember.jp/prod/public/vaundy/contents/discography/7cd9623a44fd09a0112d5163de67439d.jpeg",
+        "local_image_path": "vaundy_images\\disco47_再会.jpeg",
+        "links": {
+            "play": "https://lnk.to/Vaundy_saikai",
+            "youtube": "https://youtu.be/WcaSSvtHFeM"
+        }
+    },
+    {
+        "db_id": "disco46",
+        "category": "DIGITAL SINGLE",
+        "title": "pained",
+        "release_date": "2025/06/18",
+        "songs": [
+            "pained"
+        ],
+        "image_url": "https://s3-aop.plusmember.jp/prod/public/vaundy/contents/discography/c7fa2cda9ed328408d538c78ee8c6d52.jpeg",
+        "local_image_path": "vaundy_images\\disco46_pained.jpeg",
+        "links": {
+            "play": "https://lnk.to/Vaundy_pained",
+            "youtube": "https://youtu.be/beIC4qyuCo8"
+        }
+    },
+    {
+        "db_id": "disco45",
+        "category": "DIGITAL SINGLE",
+        "title": "まじで、サヨナラべぃべぃ",
+        "release_date": "2025/05/09",
+        "songs": [
+            "まじで、サヨナラべぃべぃ(Apple iPhone 16 Proで撮影 是枝裕和監督作品「ラストシーン」主題歌)"
+        ],
+        "image_url": "https://s3-aop.plusmember.jp/prod/public/vaundy/contents/discography/a16d9787030ba7d39205e629f35e8ff6.jpeg",
+        "local_image_path": "vaundy_images\\disco45_まじで、サヨナラべぃべぃ.jpeg",
+        "links": {
+            "play": "https://lnk.to/majide_sayonara_baby",
+            "youtube": "https://youtu.be/1nP45TNIIKM"
+        }
+    },
+    {
+        "db_id": "disco44",
+        "category": "DIGITAL SINGLE",
+        "title": "僕にはどうしてわかるんだろう",
+        "release_date": "2025/04/25",
+        "songs": [
+            "僕にはどうしてわかるんだろう(テレビ朝日系木曜ドラマ「PJ ～航空救難団～」主題歌)(ソニー生命「生きがいを、愛そう。」篇CMソング)"
+        ],
+        "image_url": "https://s3-aop.plusmember.jp/prod/public/vaundy/contents/discography/6224e5cb68370368c36b97a900cf91a3.jpeg",
+        "local_image_path": "vaundy_images\\disco44_僕にはどうしてわかるんだろう.jpeg",
+        "links": {
+            "play": "https://lnk.to/HowdoIknow",
+            "youtube": "https://youtu.be/x4aWXNWPrtY"
+        }
+    },
+    {
+        "db_id": "disco43",
+        "category": "DIGITAL SINGLE",
+        "title": "人生はミックスナッツの組み合わせ",
+        "release_date": "2025/03/26",
+        "songs": [
+            "人生はミックスナッツの組み合わせ"
+        ],
+        "image_url": "https://s3-aop.plusmember.jp/prod/public/vaundy/contents/discography/7132947b0c769c71eb69c100f23c8b89.jpeg",
+        "local_image_path": "vaundy_images\\disco43_人生はミックスナッツの組み合わせ.jpeg",
+        "links": {
+            "play": "https://lnk.to/Jinseiwamixnuts",
+            "youtube": null
+        }
+    },
+    {
+        "db_id": "disco42",
+        "category": "CD SINGLE",
+        "title": "走れSAKAMOTO",
+        "release_date": "2025/03/05",
+        "songs": [
+            "走れSAKAMOTO(TVアニメ「SAKAMOTO DAYS」オープニング・テーマ)",
+            "Somebody help us(TVアニメ「SAKAMOTO DAYS」スペシャルエンディング)"
+        ],
+        "image_url": "https://s3-aop.plusmember.jp/prod/public/vaundy/contents/discography/67ff0a67affcca04e59546d73482ab6d.jpeg",
+        "local_image_path": "vaundy_images\\disco42_走れSAKAMOTO.jpeg",
+        "links": {
+            "play": "https://lnk.to/RUN_SAKAMOTO_RUN_DG",
+            "youtube": "https://youtu.be/jbgG5tzgP9k"
+        }
+    },
+    {
+        "db_id": "disco52",
+        "category": "DIGITAL SINGLE",
+        "title": "Somebody help us",
+        "release_date": "2025/02/16",
+        "songs": [
+            "Somebody help us(TVアニメ「SAKAMOTO DAYS」スペシャルエンディング)"
+        ],
+        "image_url": "https://s3-aop.plusmember.jp/prod/public/vaundy/contents/discography/97d7edec633fbd900732b580bdd4c06e.jpeg",
+        "local_image_path": "vaundy_images\\disco52_Somebody help us.jpeg",
+        "links": {
+            "play": "https://lnk.to/RUN_SAKAMOTO_RUN_DG",
+            "youtube": "https://youtu.be/vxnTxUOh8yg"
+        }
+    },
+    {
+        "db_id": "disco41",
+        "category": "DIGITAL SINGLE",
+        "title": "走れSAKAMOTO",
+        "release_date": "2025/01/12",
+        "songs": [
+            "走れSAKAMOTO(TVアニメ「SAKAMOTO DAYS」オープニング・テーマ)"
+        ],
+        "image_url": "https://s3-aop.plusmember.jp/prod/public/vaundy/contents/discography/685f85e00642937db360970abcc1ac78.jpeg",
+        "local_image_path": "vaundy_images\\disco41_走れSAKAMOTO.jpeg",
+        "links": {
+            "play": "https://lnk.to/RUN_SAKAMOTO_RUN_DG",
+            "youtube": "https://youtu.be/jbgG5tzgP9k"
+        }
+    },
+    {
+        "db_id": "disco40",
+        "category": "DIGITAL SINGLE",
+        "title": "風神",
+        "release_date": "2024/10/12",
+        "songs": [
+            "風神(TBS系 金曜ドラマ「ライオンの隠れ家」主題歌)"
+        ],
+        "image_url": "https://s3-aop.plusmember.jp/prod/public/vaundy/contents/discography/ba92a4c8068e44cdfb35fc8d57674180.jpeg",
+        "local_image_path": "vaundy_images\\disco40_風神.jpeg",
+        "links": {
+            "play": "https://lnk.to/Fujin",
+            "youtube": "https://youtu.be/yiU0I0tvt6s"
+        }
+    },
+    {
+        "db_id": "disco39",
+        "category": "DIGITAL SINGLE",
+        "title": "GORILLA芝居",
+        "release_date": "2024/09/25",
+        "songs": [
+            "GORILLA芝居"
+        ],
+        "image_url": "https://s3-aop.plusmember.jp/prod/public/vaundy/contents/discography/dc6e8128bd05e140302f9007f7e43a68.jpeg",
+        "local_image_path": "vaundy_images\\disco39_GORILLA芝居.jpeg",
+        "links": {
+            "play": "https://lnk.to/gorillashibai",
+            "youtube": "https://www.youtube.com/live/QTYjA7QV7tY"
+        }
+    },
+    {
+        "db_id": "disco38",
+        "category": "CD SINGLE",
+        "title": "ホムンクルス / Gift",
+        "release_date": "2024/08/14",
+        "songs": [
+            "ホムンクルス(『僕のヒーローアカデミア THE MOVIE ユアネクスト』オープニング主題歌)",
+            "Gift(『僕のヒーローアカデミア THE MOVIE ユアネクスト』エンディング主題歌)(AEON Pay CM「夜明け」篇CMソング)"
+        ],
+        "image_url": "https://s3-aop.plusmember.jp/prod/public/vaundy/contents/discography/bfd2db036fbd4a660022ade8e55b7471.jpeg",
+        "local_image_path": "vaundy_images\\disco38_ホムンクルス _ Gift.jpeg",
+        "links": {
+            "play": "https://lnk.to/Homunculus_Gift",
+            "youtube": "https://youtu.be/ZhUa0CumyxQ"
+        }
+    },
+    {
+        "db_id": "disco37",
+        "category": "DIGITAL SINGLE",
+        "title": "ホムンクルス / Gift",
+        "release_date": "2024/08/03",
+        "songs": [
+            "ホムンクルス(『僕のヒーローアカデミア THE MOVIE ユアネクスト』オープニング主題歌)",
+            "Gift(『僕のヒーローアカデミア THE MOVIE ユアネクスト』エンディング主題歌)(AEON Pay CM「夜明け」篇CMソング)"
+        ],
+        "image_url": "https://s3-aop.plusmember.jp/prod/public/vaundy/contents/discography/91afbd1761a8fae2617da78ead13ba23.jpeg",
+        "local_image_path": "vaundy_images\\disco37_ホムンクルス _ Gift.jpeg",
+        "links": {
+            "play": "https://lnk.to/Homunculus_Gift",
+            "youtube": "https://youtu.be/ZhUa0CumyxQ"
+        }
+    },
+    {
+        "db_id": "disco34",
+        "category": "DIGITAL SINGLE / CD SINGLE",
+        "title": "タイムパラドックス",
+        "release_date": "2024/01/07",
+        "songs": [
+            "タイムパラドックス(『映画ドラえもん のび太の地球交響楽』主題歌)",
+            "ココロありがとう (ビリー・バンバン カバー)"
+        ],
+        "image_url": "https://s3-aop.plusmember.jp/prod/public/vaundy/contents/discography/bb301956cd904c2c14a69a3d79d0284d.jpeg",
+        "local_image_path": "vaundy_images\\disco34_タイムパラドックス.jpeg",
+        "links": {
+            "play": "https://lnk.to/TimeParadoxTS",
+            "youtube": "https://youtu.be/ewhRE-BvJCg"
+        }
+    },
+    {
+        "db_id": "disco33",
+        "category": "2nd ALBUM",
+        "title": "replica",
+        "release_date": "2023/11/15",
+        "songs": [
+            "Audio 007",
+            "ZERO(SpotifyブランドTVCMソング)",
+            "美電球(テレビ朝日「サタデーステーション」「サンデーステーション」OPテーマ)",
+            "カーニバル(Netflix「御手洗家、炎上する」主題歌)",
+            "1リッター分の愛をこめて",
+            "常熱(ゼクシィ新CM「ふたりの結婚式から、わかること」篇CMソング) (オムニバス映画『GEMNIBUS vol.1』テーマソング)",
+            "Audio 006",
+            "宮 (読み：みやこ)",
+            "黒子 (読み：ほくろ)",
+            "逆光 - replica -(KATE 新CM「LIGHTS ON SHADOW. 影に光を。」タイアップ曲)",
+            "NEO JAPAN",
+            "呼吸のように(映画「正欲」主題歌)",
+            "怪獣の花唄 - replica -",
+            "Audio 008",
+            "replica",
+            "Audio 003",
+            "世界の秘密(大学生SNS「Dtto」(ディット)WEB CMソング) (WOWOWオリジナルドラマ「ショートショート劇場『こころのフフフ』」主題歌) (マルハニチロ 新中華街®シリーズ「横浜あんかけラーメン」TVCMソング)",
+            "融解sink",
+            "しわあわせ(専門学校 首都医校・大阪医専・名古屋医専2021年度 TVCMソング) (マルハニチロ 新中華街®シリーズ「五目あんかけ焼そば」TVCMソング) (ジャックス 2023年新CM「物以上の、物語を。」シリーズ)",
+            "benefits",
+            "花占い(日本マクドナルド株式会社「ティロリミックス 2024」)(日本テレビ系日曜ドラマ「ボクの殺意が恋をした」主題歌)",
+            "Tokimeki(TOYOTA「カローラ クロス」CMソング) (「青春ビンゴ」Vaundy×ドコモ青春割 祝卒業ムービー)(アサヒビール「ドライクリスタル」TVCMソング)",
+            "泣き地蔵",
+            "踊り子(YouTube Premiumコマーシャルソング)",
+            "裸の勇者(フジテレビ“ノイタミナ”TVアニメ「王様ランキング」第2クールOPテーマ)",
+            "恋風邪にのせて(ABEMA「彼とオオカミちゃんには騙されない」主題歌)",
+            "走馬灯",
+            "mabataki(サントリー「BOSS CAFFEINE」CMソング) (「青春タイムトリップ」Vaundy×ドコモ 青春応援ムービー)",
+            "CHAINSAW BLOOD(TVアニメ「チェンソーマン」第1話EDテーマ)",
+            "瞳惚れ(テレビ朝日系土曜ナイトドラマ「ジャパニーズスタイル」主題歌)",
+            "忘れ物(日本マクドナルドCM「時をかけるバーガー」篇 CMソング)",
+            "置き手紙(Morisawa Fontsコラボレーション)",
+            "まぶた(フジテレビ系月9ドラマ「女神の教室〜リーガル青春白書〜」主題歌)",
+            "そんなbitterな話(ABEMA「花束とオオカミちゃんには騙されない」主題歌)",
+            "トドメの一撃 feat. Cory Wong(TVアニメ「SPY×FAMILY」Season 2ED主題歌)"
+        ],
+        "image_url": "https://s3-aop.plusmember.jp/prod/public/vaundy/contents/discography/6e5a960ab093f12a64ccfc4c7ea33af2.jpeg",
+        "local_image_path": "vaundy_images\\disco33_replica.jpeg",
+        "links": {
+            "play": "https://lnk.to/replica_Vaundy",
+            "youtube": "https://youtu.be/ZzfUADfJfLY"
+        }
+    },
+    {
+        "db_id": "disco32",
+        "category": "DIGITAL SINGLE",
+        "title": "呼吸のように",
+        "release_date": "2023/11/08",
+        "songs": [
+            "呼吸のように(映画『正欲』主題歌)"
+        ],
+        "image_url": "https://s3-aop.plusmember.jp/prod/public/vaundy/contents/discography/e22fdd6ae4639def424089fed3c49abe.jpeg",
+        "local_image_path": "vaundy_images\\disco32_呼吸のように.jpeg",
+        "links": {
+            "play": "https://lnk.to/LikeBreathing_Vaundy",
+            "youtube": "https://youtu.be/68dmvGPR8JE"
+        }
+    },
+    {
+        "db_id": "disco31",
+        "category": "DIGITAL SINGLE",
+        "title": "トドメの一撃 feat. Cory Wong",
+        "release_date": "2023/10/08",
+        "songs": [
+            "トドメの一撃 feat. Cory Wong(「TVアニメ「SPY×FAMILY」Season 2ED主題歌)"
+        ],
+        "image_url": "https://s3-aop.plusmember.jp/prod/public/vaundy/contents/discography/cc652db26bf5808ee4b192496e167ac8.jpeg",
+        "local_image_path": "vaundy_images\\disco31_トドメの一撃 feat. Cory Wong.jpeg",
+        "links": {
+            "play": "https://lnk.to/todome",
+            "youtube": "https://youtu.be/7xRWOylrLfI"
+        }
+    },
+    {
+        "db_id": "disco30",
+        "category": "DIGITAL SINGLE",
+        "title": "ZERO",
+        "release_date": "2023/09/29",
+        "songs": [
+            "ZERO(SpotifyブランドTVCMソング)"
+        ],
+        "image_url": "https://s3-aop.plusmember.jp/prod/public/vaundy/contents/discography/82f739baf96f190ff6e897fbc06fe3be.jpeg",
+        "local_image_path": "vaundy_images\\disco30_ZERO.jpeg",
+        "links": {
+            "play": "https://lnk.to/ZERO_Vaundy",
+            "youtube": "https://youtu.be/r9f2CKOaq3g"
+        }
+    },
+    {
+        "db_id": "disco29",
+        "category": "DIGITAL SINGLE",
+        "title": "そんなbitterな話",
+        "release_date": "2023/03/13",
+        "songs": [
+            "そんなbitterな話(ABEMA「花束とオオカミちゃんには騙されない」主題歌)"
+        ],
+        "image_url": "https://s3-aop.plusmember.jp/prod/public/vaundy/contents/discography/e65d11e223397a46f451d1d41e81d176.jpeg",
+        "local_image_path": "vaundy_images\\disco29_そんなbitterな話.jpeg",
+        "links": {
+            "play": "https://ssm.lnk.to/sbnh",
+            "youtube": "https://youtu.be/V-gxqhWEbxI"
+        }
+    },
+    {
+        "db_id": "disco28",
+        "category": "DIGITAL SINGLE",
+        "title": "まぶた",
+        "release_date": "2023/01/10",
+        "songs": [
+            "まぶた(フジテレビ系月9ドラマ「女神の教室〜リーガル青春白書〜 」主題歌)"
+        ],
+        "image_url": "https://s3-aop.plusmember.jp/prod/public/vaundy/contents/discography/430175882b49a35bb689d337a76168b8.jpeg",
+        "local_image_path": "vaundy_images\\disco28_まぶた.jpeg",
+        "links": {
+            "play": "https://ssm.lnk.to/mabuta",
+            "youtube": "https://youtu.be/fjx_uy5eD8g"
+        }
+    },
+    {
+        "db_id": "disco27",
+        "category": "DIGITAL SINGLE",
+        "title": "置き手紙",
+        "release_date": "2022/11/28",
+        "songs": [
+            "置き手紙(Morisawa Fontsコラボレーション)"
+        ],
+        "image_url": "https://s3-aop.plusmember.jp/prod/public/vaundy/contents/discography/47272e1f9799b9cd0daa9db8abd4d3a1.jpeg",
+        "local_image_path": "vaundy_images\\disco27_置き手紙.jpeg",
+        "links": {
+            "play": "https://ssm.lnk.to/okitegami",
+            "youtube": "https://youtu.be/B50A9Nf5FCE"
+        }
+    },
+    {
+        "db_id": "disco26",
+        "category": "DIGITAL SINGLE",
+        "title": "忘れ物",
+        "release_date": "2022/11/14",
+        "songs": [
+            "忘れ物(日本マクドナルド CM「時をかけるバーガー」篇 CMソング)"
+        ],
+        "image_url": "https://s3-aop.plusmember.jp/prod/public/vaundy/contents/discography/0c9da122f41ce48bf509bbe71e0e6a42.jpeg",
+        "local_image_path": "vaundy_images\\disco26_忘れ物.jpeg",
+        "links": {
+            "play": "https://ssm.lnk.to/wasuremono",
+            "youtube": "https://youtu.be/tQq8C7irREk"
+        }
+    },
+    {
+        "db_id": "disco25",
+        "category": "DIGITAL SINGLE",
+        "title": "瞳惚れ",
+        "release_date": "2022/10/28",
+        "songs": [
+            "瞳惚れ(テレビ朝日系土曜ナイトドラマ「ジャパニーズスタイル」主題歌)"
+        ],
+        "image_url": "https://s3-aop.plusmember.jp/prod/public/vaundy/contents/discography/2a803be904ec5c420df5bf139149ab8c.jpeg",
+        "local_image_path": "vaundy_images\\disco25_瞳惚れ.jpeg",
+        "links": {
+            "play": "https://ssm.lnk.to/hitomibore",
+            "youtube": "https://youtu.be/XEEXE8Ei5SA"
+        }
+    },
+    {
+        "db_id": "disco24",
+        "category": "DIGITAL SINGLE",
+        "title": "CHAINSAW BLOOD",
+        "release_date": "2022/10/12",
+        "songs": [
+            "CHAINSAW BLOOD(TVアニメ「チェンソーマン」第1話EDテーマ)"
+        ],
+        "image_url": "https://s3-aop.plusmember.jp/prod/public/vaundy/contents/discography/44ff379a6943bbe55e7730cf8b60ae1e.jpeg",
+        "local_image_path": "vaundy_images\\disco24_CHAINSAW BLOOD.jpeg",
+        "links": {
+            "play": "https://lnk.to/CHAINSAW_BLOODTC",
+            "youtube": "https://youtu.be/FL1QjjkZVm4"
+        }
+    },
+    {
+        "db_id": "disco23",
+        "category": "DIGITAL SINGLE",
+        "title": "mabataki",
+        "release_date": "2022/09/10",
+        "songs": [
+            "mabataki(サントリー「BOSS CAFFEINE」CMソング)(「青春タイムトリップ」Vaundy×ドコモ 青春応援ムービー)"
+        ],
+        "image_url": "https://s3-aop.plusmember.jp/prod/public/vaundy/contents/discography/86221076a610b6f825014a18df58a710.jpeg",
+        "local_image_path": "vaundy_images\\disco23_mabataki.jpeg",
+        "links": {
+            "play": "https://ssm.lnk.to/mabataki",
+            "youtube": "https://youtu.be/6h6AQbdTkaE"
+        }
+    },
+    {
+        "db_id": "disco22",
+        "category": "DIGITAL SINGLE",
+        "title": "走馬灯",
+        "release_date": "2022/07/11",
+        "songs": [
+            "走馬灯"
+        ],
+        "image_url": "https://s3-aop.plusmember.jp/prod/public/vaundy/contents/discography/175c014a80ca8d3004036c1452c7cd35.jpeg",
+        "local_image_path": "vaundy_images\\disco22_走馬灯.jpeg",
+        "links": {
+            "play": "https://ssm.lnk.to/Soumatou",
+            "youtube": "https://youtu.be/3Dy4EbMPkY0"
+        }
+    },
+    {
+        "db_id": "disco21",
+        "category": "DIGITAL SINGLE",
+        "title": "恋風邪にのせて",
+        "release_date": "2022/03/07",
+        "songs": [
+            "恋風邪にのせて(ABEMA「彼とオオカミちゃんには騙されない」主題歌)"
+        ],
+        "image_url": "https://s3-aop.plusmember.jp/prod/public/vaundy/contents/discography/cf9b6531c2d745d23805dbdea770e8e1.jpeg",
+        "local_image_path": "vaundy_images\\disco21_恋風邪にのせて.jpeg",
+        "links": {
+            "play": "https://ssm.lnk.to/Knn",
+            "youtube": "https://youtu.be/1FIhcdocT-k"
+        }
+    },
+    {
+        "db_id": "disco20",
+        "category": "DIGITAL SINGLE / EP",
+        "title": "裸の勇者",
+        "release_date": "2022/01/07",
+        "songs": [
+            "裸の勇者(フジテレビ“ノイタミナ”TVアニメ「王様ランキング」第2クールOPテーマ)",
+            "二人話",
+            "HERO",
+            "おもかげ -self cover-"
+        ],
+        "image_url": "https://s3-aop.plusmember.jp/prod/public/vaundy/contents/discography/550392edfb7e66fbff19fc87be52d9bc.jpeg",
+        "local_image_path": "vaundy_images\\disco20_裸の勇者.jpeg",
+        "links": {
+            "play": null,
+            "youtube": "https://youtu.be/FT0GKCuSaW0"
+        }
+    },
+    {
+        "db_id": "disco19",
+        "category": "DIGITAL SINGLE",
+        "title": "踊り子",
+        "release_date": "2021/11/17",
+        "songs": [
+            "踊り子(YouTube Premiumコマーシャルソング)"
+        ],
+        "image_url": "https://s3-aop.plusmember.jp/prod/public/vaundy/contents/discography/3690e4a9fa8cd5efbf49036d406a1bb7.jpeg",
+        "local_image_path": "vaundy_images\\disco19_踊り子.jpeg",
+        "links": {
+            "play": "https://ssm.lnk.to/odoriko",
+            "youtube": "https://youtu.be/7HgJIAUtICU"
+        }
+    },
+    {
+        "db_id": "disco18",
+        "category": "DIGITAL SINGLE",
+        "title": "泣き地蔵",
+        "release_date": "2021/10/19",
+        "songs": [
+            "泣き地蔵"
+        ],
+        "image_url": "https://s3-aop.plusmember.jp/prod/public/vaundy/contents/discography/e2893b9376dac1b19f513d46563d8673.jpeg",
+        "local_image_path": "vaundy_images\\disco18_泣き地蔵.jpeg",
+        "links": {
+            "play": "https://ssm.lnk.to/NakiJizo",
+            "youtube": "https://youtu.be/XQTM2M5iD_I"
+        }
+    },
+    {
+        "db_id": "disco17",
+        "category": "DIGITAL SINGLE",
+        "title": "Tokimeki",
+        "release_date": "2021/09/22",
+        "songs": [
+            "Tokimeki(TOYOTA「カローラ クロス」CMソング)(「青春ビンゴ」Vaundy×ドコモ青春割 祝卒業ムービー)(アサヒビール「ドライクリスタル」TVCMソング)"
+        ],
+        "image_url": "https://s3-aop.plusmember.jp/prod/public/vaundy/contents/discography/3c13144f3cd51541ca6d9463c8aea729.jpeg",
+        "local_image_path": "vaundy_images\\disco17_Tokimeki.jpeg",
+        "links": {
+            "play": "https://lnk.to/v_tokimeki",
+            "youtube": "https://youtu.be/-_PKhPMXMDY"
+        }
+    },
+    {
+        "db_id": "disco16",
+        "category": "DIGITAL SINGLE",
+        "title": "花占い",
+        "release_date": "2021/07/05",
+        "songs": [
+            "花占い(日本マクドナルド株式会社「ティロリミックス 2024」)(日本テレビ系日曜ドラマ「ボクの殺意が恋をした」主題歌)"
+        ],
+        "image_url": "https://s3-aop.plusmember.jp/prod/public/vaundy/contents/discography/db399e64f4ff20ce4d94342c194b8039.jpeg",
+        "local_image_path": "vaundy_images\\disco16_花占い.jpeg",
+        "links": {
+            "play": "https://ssm.lnk.to/Hanauranai",
+            "youtube": "https://youtu.be/onhBN0qkUcE"
+        }
+    },
+    {
+        "db_id": "disco15",
+        "category": "DIGITAL SINGLE",
+        "title": "benefits",
+        "release_date": "2021/06/12",
+        "songs": [
+            "benefits"
+        ],
+        "image_url": "https://s3-aop.plusmember.jp/prod/public/vaundy/contents/discography/ee2e5d02a9a741a128483f95269a806e.jpeg",
+        "local_image_path": "vaundy_images\\disco15_benefits.jpeg",
+        "links": {
+            "play": "https://ssm.lnk.to/benefits",
+            "youtube": "https://youtu.be/HH1g5faSLTY"
+        }
+    },
+    {
+        "db_id": "disco14",
+        "category": "DIGITAL SINGLE",
+        "title": "しわあわせ",
+        "release_date": "2021/04/11",
+        "songs": [
+            "しわあわせ(専門学校首都医校・大阪医専・名古屋医専2021年度 TVCMソング)(マルハニチロ 新中華街®シリーズ「五目あんかけ焼そば」TVCMソング)(ジャックス 2023年新CM「物以上の、物語を。」シリーズ)"
+        ],
+        "image_url": "https://s3-aop.plusmember.jp/prod/public/vaundy/contents/discography/5fc1ab816bd223d17d21e569c618bafc.jpeg",
+        "local_image_path": "vaundy_images\\disco14_しわあわせ.jpeg",
+        "links": {
+            "play": "https://ssm.lnk.to/Shiwaawase",
+            "youtube": "https://youtu.be/JwmGruvGt_I"
+        }
+    },
+    {
+        "db_id": "disco13",
+        "category": "DIGITAL SINGLE",
+        "title": "地球儀 with Vaundy / Aimer",
+        "release_date": "2021/03/16",
+        "songs": [
+            "地球儀 with Vaundy(仏高級車ブランドDS Automobiles“DS 3 CROSSBACK INES DE LA FRESSANGE” CMソング)"
+        ],
+        "image_url": "https://s3-aop.plusmember.jp/prod/public/vaundy/contents/discography/dffec1052ceacf6ee1d9fecda86a1bf8.jpeg",
+        "local_image_path": "vaundy_images\\disco13_地球儀 with Vaundy _ Aimer.jpeg",
+        "links": {
+            "play": "https://aimer.lnk.to/chikyugi_with_Vaundy",
+            "youtube": "https://youtu.be/NmC5M8RylVY"
+        }
+    },
+    {
+        "db_id": "disco12",
+        "category": "DIGITAL SINGLE",
+        "title": "融解sink",
+        "release_date": "2021/02/24",
+        "songs": [
+            "融解sink"
+        ],
+        "image_url": "https://s3-aop.plusmember.jp/prod/public/vaundy/contents/discography/0adb20172c4b3d44c2df7153e079162c.jpeg",
+        "local_image_path": "vaundy_images\\disco12_融解sink.jpeg",
+        "links": {
+            "play": "https://ssm.lnk.to/YuukaiSink",
+            "youtube": "https://www.youtube.com/watch?v=B383PElQMHo"
+        }
+    },
+    {
+        "db_id": "disco11",
+        "category": "DIGITAL SINGLE",
+        "title": "世界の秘密",
+        "release_date": "2020/12/27",
+        "songs": [
+            "世界の秘密(大学生SNS「Dtto」(ディット)WEB CMソング)(WOWOWオリジナルドラマ ショートショート劇場「こころのフフフ」主題歌)(マルハニチロ 新中華街®シリーズ「横浜あんかけラーメン」TVCMソング)"
+        ],
+        "image_url": "https://s3-aop.plusmember.jp/prod/public/vaundy/contents/discography/340c2c2bddb19f2802877b5dbf6f3317.jpeg",
+        "local_image_path": "vaundy_images\\disco11_世界の秘密.jpeg",
+        "links": {
+            "play": "https://ssm.lnk.to/SekaiNoHimitsu",
+            "youtube": "https://youtu.be/xFoTFCHU70s"
+        }
+    },
+    {
+        "db_id": "disco9",
+        "category": "1st ALBUM LP",
+        "title": "strobo+",
+        "release_date": "2020/11/03",
+        "songs": [],
+        "image_url": "https://s3-aop.plusmember.jp/prod/public/vaundy/contents/discography/5d127adce9b7534f9dfb698d76d15cbd.jpeg",
+        "local_image_path": "vaundy_images\\disco9_strobo+.jpeg",
+        "links": {
+            "play": null,
+            "youtube": "https://www.youtube.com/watch?v=p7_c5I7rnlI"
+        }
+    },
+    {
+        "db_id": "disco10",
+        "category": "DIGITAL SINGLE",
+        "title": "ASH feat. Vaundy / Nulbarich",
+        "release_date": "2020/10/28",
+        "songs": [
+            "ASH feat.Vaundy",
+            "ASH feat.Vaundy (n-buna from ヨルシカ Remix )"
+        ],
+        "image_url": "https://s3-aop.plusmember.jp/prod/public/vaundy/contents/discography/39c00256203028f61d6c85b531741710.jpeg",
+        "local_image_path": "vaundy_images\\disco10_ASH feat. Vaundy _ Nulbarich.jpeg",
+        "links": {
+            "play": "https://jvcmusic.lnk.to/nulbarich_ash",
+            "youtube": "https://www.youtube.com/watch?v=tYDP25hNaNY"
+        }
+    },
+    {
+        "db_id": "disco8",
+        "category": "1st ALBUM",
+        "title": "strobo",
+        "release_date": "2020/05/27",
+        "songs": [],
+        "image_url": "https://s3-aop.plusmember.jp/prod/public/vaundy/contents/discography/86ea76316eb0f97091bc308f04d62dd8.png",
+        "local_image_path": "vaundy_images\\disco8_strobo.png",
+        "links": {
+            "play": null,
+            "youtube": "https://www.youtube.com/watch?v=p7_c5I7rnlI"
+        }
+    },
+    {
+        "db_id": "disco7",
+        "category": "DIGITAL SINGLE",
+        "title": "怪獣の花唄",
+        "release_date": "2020/05/11",
+        "songs": [
+            "怪獣の花唄(マルハニチロ「WILDish」シリーズTVCMソング)"
+        ],
+        "image_url": "https://s3-aop.plusmember.jp/prod/public/vaundy/contents/discography/b1eeee441382be62b484fa19a8d62cb4.png",
+        "local_image_path": "vaundy_images\\disco7_怪獣の花唄.png",
+        "links": {
+            "play": "https://ssm.lnk.to/kaijunohanauta",
+            "youtube": "https://youtu.be/UM9XNpgrqVk"
+        }
+    },
+    {
+        "db_id": "disco6",
+        "category": "DIGITAL SINGLE",
+        "title": "灯火",
+        "release_date": "2020/04/27",
+        "songs": [
+            "灯火(FOD ドラマ「東京ラブストーリー」主題歌)(『手のひらにはいつだって 』Vaundy×docomo青春割 受験応援ムービー)(ダイハツ「タフト」 CM「自分らしさ」篇CMソング)"
+        ],
+        "image_url": "https://s3-aop.plusmember.jp/prod/public/vaundy/contents/discography/25a00e0451d684a2fd730911fd158819.png",
+        "local_image_path": "vaundy_images\\disco6_灯火.png",
+        "links": {
+            "play": "https://ssm.lnk.to/tomoshibi",
+            "youtube": "https://youtu.be/rtmG44W0rfw"
+        }
+    },
+    {
+        "db_id": "disco5",
+        "category": "DIGITAL SINGLE",
+        "title": "Bye by me",
+        "release_date": "2020/04/18",
+        "songs": [
+            "Bye by me(テレビ東京 ドラマ25「捨ててよ、安達さん。」オープニングテーマ)"
+        ],
+        "image_url": "https://s3-aop.plusmember.jp/prod/public/vaundy/contents/discography/b88739c4ec6fe69c954a6bab5e52bdc8.png",
+        "local_image_path": "vaundy_images\\disco5_Bye by me.png",
+        "links": {
+            "play": "https://ssm.lnk.to/byebyme",
+            "youtube": "https://www.youtube.com/watch?v=b3H5RvRHiYs"
+        }
+    },
+    {
+        "db_id": "disco4",
+        "category": "DIGITAL SINGLE",
+        "title": "life hack",
+        "release_date": "2020/03/23",
+        "songs": [
+            "life hack(アダストリアGLOBAL WORK「ウツクシルエットでいこう。展開篇」起用)"
+        ],
+        "image_url": "https://s3-aop.plusmember.jp/prod/public/vaundy/contents/discography/c7c12237e4f8b95d23052c179dec00ae.jpeg",
+        "local_image_path": "vaundy_images\\disco4_life hack.jpeg",
+        "links": {
+            "play": "https://ssm.lnk.to/lifehack",
+            "youtube": "https://www.youtube.com/watch?v=Tzyt91TYjLA"
+        }
+    },
+    {
+        "db_id": "disco3",
+        "category": "DIGITAL SINGLE",
+        "title": "僕は今日も",
+        "release_date": "2020/02/07",
+        "songs": [
+            "僕は今日も(マルハニチロ冷凍食品「新中華街® シリーズ」TVCM ソング)"
+        ],
+        "image_url": "https://s3-aop.plusmember.jp/prod/public/vaundy/contents/discography/c4a29ce76da6d57c6d8fe830b8ab6a50.jpeg",
+        "local_image_path": "vaundy_images\\disco3_僕は今日も.jpeg",
+        "links": {
+            "play": "https://ssm.lnk.to/bokuhakyoumo",
+            "youtube": "https://www.youtube.com/watch?v=LKyx3EYVlkA"
+        }
+    },
+    {
+        "db_id": "disco2",
+        "category": "DIGITAL SINGLE",
+        "title": "不可幸力",
+        "release_date": "2020/01/22",
+        "songs": [
+            "不可幸力(Spotify Premium全国地上波テレビCM「Spotify Town」編 CMソング)"
+        ],
+        "image_url": "https://s3-aop.plusmember.jp/prod/public/vaundy/contents/discography/6dc92c8c182c521c83bf4312ddece427.jpeg",
+        "local_image_path": "vaundy_images\\disco2_不可幸力.jpeg",
+        "links": {
+            "play": "https://ssm.lnk.to/fukakouryoku",
+            "youtube": "https://www.youtube.com/watch?v=Gbz2C2gQREI"
+        }
+    },
+    {
+        "db_id": "disco1",
+        "category": "DIGITAL SINGLE",
+        "title": "東京フラッシュ",
+        "release_date": "2019/11/29",
+        "songs": [
+            "東京フラッシュ(ABEMA「恋する週末ホームステイ」挿入歌)"
+        ],
+        "image_url": "https://s3-aop.plusmember.jp/prod/public/vaundy/contents/discography/6df4856f3853ee81d3007462c31d73f1.jpeg",
+        "local_image_path": "vaundy_images\\disco1_東京フラッシュ.jpeg",
+        "links": {
+            "play": "https://ssm.lnk.to/tokyoflash",
+            "youtube": "https://www.youtube.com/watch?v=SIuF37EWaLU"
+        }
+    }
+]
