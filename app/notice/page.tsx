@@ -4,7 +4,7 @@ import { useState } from 'react'
 import NavBar from '../components/NavBar'
 import Footer from '../components/Footer'
 
-const NOTICES = [
+const NOTICES: { id: number; title: string; date: string }[] = [
   // 나중에 여기에 공지 추가해요
   // { id: 1, title: '공지 제목', date: '2026.06.06' },
 ]
