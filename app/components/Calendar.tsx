@@ -3,7 +3,7 @@
 import { useEffect, useState } from 'react'
 import { supabase } from '../lib/supabase'
 
-const LYRICS_PASSWORD = 'v202609'
+const LYRICS_PASSWORD = process.env.NEXT_PUBLIC_LYRICS_PASSWORD
 
 type Concert = {
   id: number
