@@ -20,7 +20,10 @@ type Song = {
   id: number
   release_date: string
   title: string
-  album_name: string
+  category: string        // 추가
+  album_cover_url: string       // 추가
+  play_url: string   // 추가
+  comment: string         // 추가
   youtube_url: string
   lyrics: string
   lyrics_url: string
@@ -52,7 +55,7 @@ export default function Calendar() {
   const [events, setEvents] = useState<CalendarEvent[]>([])
   const [hoveredDate, setHoveredDate] = useState<string | null>(null)
   const [clickedDate, setClickedDate] = useState<string | null>(null)
-  const [lyricsUnlocked, setLyricsUnlocked] = useState(false)
+  const [unlockedDates, setUnlockedDates] = useState<Set<string>>(new Set())
   const [pwInput, setPwInput] = useState('')
   const [pwError, setPwError] = useState(false)
   const [editingYear, setEditingYear] = useState(false)
@@ -130,8 +133,10 @@ export default function Calendar() {
     today.getFullYear() === year && today.getMonth() === month && today.getDate() === day
 
   const handlePwSubmit = () => {
-    if (pwInput === LYRICS_PASSWORD) { setLyricsUnlocked(true); setPwError(false) }
-    else setPwError(true)
+    if (pwInput === LYRICS_PASSWORD && activeDate) {
+      setUnlockedDates(prev => new Set(prev).add(activeDate))
+      setPwError(false)
+    } else setPwError(true)
   }
 
   const handleDayClick = (day: number) => {
@@ -148,7 +153,7 @@ export default function Calendar() {
   const totalCells = firstDay + daysInMonth
   const numRows = Math.ceil(totalCells / 7)
   // 고정 행 높이: 전체 높이에서 헤더 빼고 나누기
-  const ROW_HEIGHT = 110 // px
+  const ROW_HEIGHT = 90 // px
 
   return (
     <div style={{
@@ -164,7 +169,7 @@ export default function Calendar() {
       <div style={{ flex: '1 1 0', minWidth: 0, display: 'flex', flexDirection: 'column' }}>
 
         {/* 헤더 */}
-        <div style={{ marginBottom: '1.2rem' }}>
+        <div style={{ marginBottom: '1rem' }}>
           <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', gap: '1rem' }}>
 
             {/* 왼쪽 화살표 - 고정 너비 */}
@@ -178,11 +183,11 @@ export default function Calendar() {
                   onChange={e => setMonthInput(e.target.value)}
                   onBlur={() => { const m = parseInt(monthInput); if (m >= 1 && m <= 12) setCurrentDate(new Date(year, m - 1)); setEditingMonth(false) }}
                   onKeyDown={e => { if (e.key === 'Enter') { const m = parseInt(monthInput); if (m >= 1 && m <= 12) setCurrentDate(new Date(year, m - 1)); setEditingMonth(false) } }}
-                  style={{ width: '80px', fontSize: '2rem', fontWeight: 900, border: 'none', borderBottom: '2px solid #ff6b2b', outline: 'none', textAlign: 'center', background: 'transparent' }}
+                  style={{ width: '80px', fontSize: '1.8rem', fontWeight: 900, border: 'none', borderBottom: '2px solid #ff6b2b', outline: 'none', textAlign: 'center', background: 'transparent' }}
                 />
               ) : (
                 <span onClick={() => { setEditingMonth(true); setMonthInput(String(month + 1)) }}
-                  style={{ fontSize: '2rem', fontWeight: 900, cursor: 'pointer', color: '#111', letterSpacing: '-0.02em' }}>
+                  style={{ fontSize: '1.8rem', fontWeight: 900, cursor: 'pointer', color: '#111', letterSpacing: '-0.02em' }}>
                   {currentMonthName}
                 </span>
               )}
@@ -204,11 +209,11 @@ export default function Calendar() {
                   onChange={e => setYearInput(e.target.value)}
                   onBlur={() => { const y = parseInt(yearInput); if (y > 2000 && y < 2100) setCurrentDate(new Date(y, month)); setEditingYear(false) }}
                   onKeyDown={e => { if (e.key === 'Enter') { const y = parseInt(yearInput); if (y > 2000 && y < 2100) setCurrentDate(new Date(y, month)); setEditingYear(false) } }}
-                  style={{ width: '5rem', fontSize: '2rem', fontWeight: 900, border: 'none', borderBottom: '2px solid #ff6b2b', outline: 'none', textAlign: 'center', background: 'transparent' }}
+                  style={{ width: '5rem', fontSize: '1.8rem', fontWeight: 900, border: 'none', borderBottom: '2px solid #ff6b2b', outline: 'none', textAlign: 'center', background: 'transparent' }}
                 />
               ) : (
                 <span onClick={() => { setEditingYear(true); setYearInput(String(year)) }}
-                  style={{ fontSize: '2rem', fontWeight: 900, cursor: 'pointer', color: '#111', letterSpacing: '-0.02em' }}>
+                  style={{ fontSize: '1.8rem', fontWeight: 900, cursor: 'pointer', color: '#111', letterSpacing: '-0.02em' }}>
                   {year}
                 </span>
               )}
@@ -223,7 +228,7 @@ export default function Calendar() {
         {/* 요일 헤더 */}
         <div style={{ display: 'grid', gridTemplateColumns: 'repeat(7, 1fr)', borderBottom: '2px solid #111' }}>
           {['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'].map(d => (
-            <div key={d} style={{ fontSize: '0.7rem', color: '#111', padding: '0.3rem 0.5rem', fontWeight: 600, letterSpacing: '0.05em' }}>
+            <div key={d} style={{ fontSize: '0.65rem', color: '#111', padding: '0.3rem 0.5rem', fontWeight: 600, letterSpacing: '0.05em' }}>
               {d}
             </div>
           ))}
@@ -263,13 +268,13 @@ export default function Calendar() {
                 {/* 날짜 숫자 */}
                 <div style={{ marginBottom: '0.25rem' }}>
                   <span style={{
-                    fontSize: '1.4rem',
+                    fontSize: '1.3rem',
                     fontWeight: 800,
                     display: 'inline-flex',
                     alignItems: 'center',
                     justifyContent: 'center',
-                    width: '30px',
-                    height: '30px',
+                    width: '28px',
+                    height: '28px',
                     borderRadius: todayFlag ? '50%' : '0',
                     backgroundColor: todayFlag ? '#ff6b2b' : 'transparent',
                     color: todayFlag ? '#fff' : isPast ? '#bbb' : '#111',
@@ -284,7 +289,7 @@ export default function Calendar() {
                 {/* 이벤트 최대 2개 + +N */}
                 {dayEvents.slice(0, 2).map((e, idx) => (
                   <div key={idx} style={{
-                    fontSize: '0.62rem',
+                    fontSize: '0.60rem',
                     color: getEventColor(e, dayDate),
                     whiteSpace: 'nowrap',
                     overflow: 'hidden',
@@ -296,7 +301,7 @@ export default function Calendar() {
                   </div>
                 ))}
                 {dayEvents.length > 2 && (
-                  <div style={{ fontSize: '0.55rem', color: '#bbb', lineHeight: '1.5' }}>+{dayEvents.length - 2}</div>
+                  <div style={{ fontSize: '0.50rem', color: '#bbb', lineHeight: '1.5' }}>+{dayEvents.length - 2}</div>
                 )}
               </div>
             )
@@ -319,85 +324,173 @@ export default function Calendar() {
         width: '20vw',
         flexShrink: 0,
         overflowY: 'auto',
-        paddingLeft: '2rem',
-        paddingTop: `calc(0.7rem + 0rem + 2.2rem)`, // 구분선 시작과 동일
+        paddingLeft: '1.4rem',
+        paddingTop: `calc(0.1rem + 0rem + 2.2rem)`,
         boxSizing: 'border-box',
       }}>
         {activeDate ? (
           <>
-            {activeEvents.length > 0 ? activeEvents.map((e, idx) => (
-              <div key={idx} style={{ marginBottom: '2rem' }}>
-                <div style={{ display: 'flex', alignItems: 'baseline', gap: '0.75rem', marginBottom: '0.5rem' }}>
-                  <span style={{ fontSize: '2.5rem', fontWeight: 900, lineHeight: 1, color: '#111' }}>
-                    {activeDate.split('-')[2]}
-                  </span>
-                  <span style={{ fontSize: '1.05rem', fontWeight: 800, color: '#111' }}>
-                    {'title' in e.data ? e.data.title : ''}
-                  </span>
-                </div>
+            {activeEvents.length > 0 ? activeEvents.map((e, idx) => {
+              const lyricsUnlocked = unlockedDates.has(activeDate)
 
-                <div style={{ borderTop: '2px solid #111', marginBottom: '0.75rem' }} />
+              return (
+                <div key={idx} style={{ marginBottom: '2rem'}}>
 
-                {e.type === 'song' && 'album_name' in e.data && (
-                  <div style={{ fontSize: '0.85rem', color: '#444', lineHeight: 1.8 }}>
-                    {e.data.album_name && <div>{e.data.album_name}</div>}
-                    {e.isAnniversary && 'release_date' in e.data && (
-                      <div style={{ color: '#bbb', fontSize: '0.7rem' }}>원발매: {e.data.release_date}</div>
-                    )}
-                    {'youtube_url' in e.data && e.data.youtube_url && (
-                      <a href={e.data.youtube_url} target="_blank" rel="noopener noreferrer"
-                        style={{ color: '#ff6b2b', fontSize: '0.8rem', display: 'block', marginTop: '0.3rem' }}>
-                        MV 보기 →
-                      </a>
-                    )}
-                    {'lyrics' in e.data && e.data.lyrics && (
-                      <div style={{ marginTop: '1rem' }}>
-                        {lyricsUnlocked ? (
-                          <div style={{ fontSize: '0.8rem', lineHeight: 2, color: '#222', whiteSpace: 'pre-line', maxHeight: '45vh', overflowY: 'auto'}}>
-                            {e.data.lyrics}
-                          </div>
-                        ) : (
-                          <div>
-                            <div style={{ fontSize: '0.7rem', color: '#999', marginBottom: '0.5rem' }}>가사 보기 (비밀번호 필요)</div>
-                            <div style={{ display: 'flex', gap: '0.5rem' }}>
-                              <input type="password" value={pwInput}
+                  {/* 날짜 + 제목 */}
+                  <div style={{ display: 'flex', alignItems: 'baseline', gap: '0.75rem', marginBottom: '0.5rem' }}>
+                    <span style={{ fontSize: '2.5rem', fontWeight: 900, lineHeight: 1, color: '#111' }}>
+                      {activeDate.split('-')[2]}
+                    </span>
+                    <span style={{ fontSize: '1.05rem', fontWeight: 800, color: '#111' }}>
+                      {'title' in e.data ? e.data.title : ''}
+                    </span>
+                  </div>
+
+                  <div style={{ borderTop: '2px solid #111', marginBottom: '0.85rem' }} />
+
+                  {/* songs / collab 패널 */}
+                  {(e.type === 'song' || e.type === 'collab') && (
+                    <>
+                      {/* 앨범 커버 + 필드 */}
+                      <div style={{ display: 'flex', gap: '14px', alignItems: 'flex-start', marginBottom: '10px' }}>
+
+                        {/* 앨범 커버 */}
+                        <div style={{
+                          width: '94px', height: '94px', flexShrink: 0,
+                          background: '#ff4500', overflow: 'hidden', position: 'relative'
+                        }}>
+                          {'album_cover_url' in e.data && e.data.album_cover_url && lyricsUnlocked ? (
+                            <img src={e.data.album_cover_url} alt="cover"
+                              style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
+                          ) : (
+                            <>
+                              {'album_cover_url' in e.data && e.data.album_cover_url && (
+                                <img src={e.data.album_cover_url} alt="cover"
+                                  style={{ width: '100%', height: '100%', objectFit: 'cover', filter: 'blur(10px)', transform: 'scale(1.15)' }} />
+                              )}
+                              <div style={{
+                                position: 'absolute', inset: 0,
+                                background: 'rgba(255,255,255,0.45)',
+                                display: 'flex', alignItems: 'center', justifyContent: 'center'
+                              }}>
+                                <span style={{ fontSize: '1.2rem', color: '#aaa' }}>🎧</span>
+                              </div>
+                            </>
+                          )}
+                        </div>
+
+                        {/* 필드들 */}
+                        <div style={{ flex: 1, display: 'flex', flexDirection: 'column', gap: '4px', paddingTop: '2px' }}>
+                          {e.type === 'song' && 'category' in e.data && e.data.category && (
+                            <div style={{ display: 'flex', alignItems: 'baseline', gap: '4px' }}>
+                              <span style={{ fontSize: '9px', fontWeight: 700, color: '#555', minWidth: '52px' }}>카테고리</span>
+                              <span style={{ fontSize: '11px', fontWeight: 700, color: '#111' }}>{e.data.category}</span>
+                            </div>
+                          )}
+                          {'release_date' in e.data && e.data.release_date && (
+                            <div style={{ display: 'flex', alignItems: 'baseline', gap: '4px' }}>
+                              <span style={{ fontSize: '9px', fontWeight: 700, color: '#555', minWidth: '52px' }}>발매일</span>
+                              <span style={{ fontSize: '11px', fontWeight: 700, color: '#111' }}>{e.data.release_date}</span>
+                            </div>
+                          )}
+                          {'play_url' in e.data && e.data.play_url && (
+                            <div style={{ display: 'flex', alignItems: 'baseline', gap: '4px' }}>
+                              <span style={{ fontSize: '9px', fontWeight: 700, color: '#555', minWidth: '52px', flexShrink: 0 }}>들으러 가기</span>
+                              <a href={e.data.play_url} target="_blank" rel="noopener noreferrer"
+                                style={{ fontSize: '11px', fontWeight: 700, color: '#111', textDecoration: 'none' }}>
+                                to go →
+                              </a>
+                            </div>
+                          )}
+                          {'youtube_url' in e.data && e.data.youtube_url && (
+                            <div style={{ display: 'flex', alignItems: 'baseline', gap: '4px' }}>
+                              <span style={{ fontSize: '9px', fontWeight: 700, color: '#555', minWidth: '52px' }}>뮤비</span>
+                              <a href={e.data.youtube_url} target="_blank" rel="noopener noreferrer"
+                                style={{ fontSize: '11px', fontWeight: 700, color: '#111', textDecoration: 'none' }}>
+                                MV 보기 →
+                              </a>
+                            </div>
+                          )}
+                        </div>
+                      </div>
+
+                      {/* 코멘트 */}
+                      {'comment' in e.data && e.data.comment && (
+                        <div style={{ fontSize: '15px', fontWeight: 700, color: '#111', textAlign: 'center', margin: '10px 0 14px', lineHeight: 1.5 }}>
+                          "{e.data.comment}"
+                        </div>
+                      )}
+
+                      {/* 가사 보기 */}
+                      {'lyrics' in e.data && e.data.lyrics && (
+                        <div>
+                          {lyricsUnlocked ? (
+                            <div style={{ fontSize: '0.8rem', lineHeight: 2, color: '#222', whiteSpace: 'pre-line', maxHeight: '35vh', overflowY: 'auto' }}>
+                              {e.data.lyrics}
+                            </div>
+                          ) : (
+                            <div style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
+                              <span style={{ fontSize: '11px', fontWeight: 700, color: '#555', minWidth: '52px' }}>가사 보기</span>
+                              <input
+                                type="password"
+                                value={pwInput}
                                 onChange={ev => setPwInput(ev.target.value)}
                                 onKeyDown={ev => ev.key === 'Enter' && handlePwSubmit()}
                                 placeholder="비밀번호"
-                                style={{ fontSize: '0.75rem', padding: '0.3rem 0.5rem', border: pwError ? '1px solid red' : '1px solid #ddd', outline: 'none', width: '120px' }}
+                                style={{
+                                  flex: 1, fontSize: '11px',
+                                  border: pwError ? '1px solid red' : '0.5px solid #ccc',
+                                  padding: '5px 8px', outline: 'none',
+                                  background: 'transparent'
+                                }}
                               />
                               <button onClick={handlePwSubmit}
-                                style={{ fontSize: '0.7rem', padding: '0.3rem 0.6rem', background: '#222', color: '#fff', border: 'none', cursor: 'pointer' }}>
+                                style={{
+                                  fontSize: '11px', fontWeight: 700,
+                                  color: '#fff', background: '#111',
+                                  border: 'none', padding: '5px 12px', cursor: 'pointer'
+                                }}>
                                 확인
                               </button>
                             </div>
-                            {pwError && <div style={{ fontSize: '0.65rem', color: 'red', marginTop: '0.3rem' }}>틀렸어요</div>}
-                          </div>
-                        )}
-                      </div>
-                    )}
-                  </div>
-                )}
+                          )}
+                          {pwError && <div style={{ fontSize: '0.65rem', color: 'red', marginTop: '0.3rem' }}>틀렸어요</div>}
+                        </div>
+                      )}
+                    </>
+                  )}
 
-                {e.type === 'concert' && 'venue' in e.data && (
-                  <div style={{ fontSize: '0.85rem', color: '#444', lineHeight: 1.8 }}>
-                    {e.data.venue && <div>{e.data.venue}</div>}
-                    {'location' in e.data && e.data.location && <div>{e.data.location}</div>}
-                    {'status' in e.data && e.data.status && <div style={{ color: '#4a90d9' }}>{e.data.status}</div>}
-                    {'memo' in e.data && e.data.memo && <div style={{ color: '#888', fontSize: '0.75rem' }}>{e.data.memo}</div>}
-                  </div>
-                )}
-
-                {e.type === 'collab' && 'artist' in e.data && (
-                  <div style={{ fontSize: '0.85rem', color: '#444', lineHeight: 1.8 }}>
-                    {e.data.artist && <div>{e.data.artist}</div>}
-                    {e.isAnniversary && 'date' in e.data && (
-                      <div style={{ color: '#bbb', fontSize: '0.7rem' }}>원날짜: {e.data.date}</div>
-                    )}
-                  </div>
-                )}
-              </div>
-            )) : (
+                  {/* concert 패널 */}
+                  {e.type === 'concert' && 'venue' in e.data && (
+                    <div style={{ fontSize: '0.85rem', lineHeight: 1.8 }}>
+                      {e.data.venue && (
+                        <div style={{ display: 'flex', gap: '10px', marginBottom: '5px' }}>
+                          <span style={{ fontSize: '12px', fontWeight: 700, color: '#555', minWidth: '28px' }}>위치</span>
+                          <span style={{ fontSize: '14px', fontWeight: 700, color: '#111' }}>{e.data.venue}</span>
+                        </div>
+                      )}
+                      {'location' in e.data && e.data.location && (
+                        <div style={{ display: 'flex', gap: '10px', marginBottom: '5px' }}>
+                          <span style={{ fontSize: '12px', fontWeight: 700, color: '#555', minWidth: '28px' }}>지역</span>
+                          <span style={{ fontSize: '14px', fontWeight: 700, color: '#111' }}>{e.data.location}</span>
+                        </div>
+                      )}
+                      {'memo' in e.data && e.data.memo && (
+                        <div style={{ display: 'flex', gap: '10px', marginBottom: '5px' }}>
+                          <span style={{ fontSize: '12px', fontWeight: 700, color: '#555', minWidth: '28px' }}>메모</span>
+                          <span style={{ fontSize: '14px', fontWeight: 700, color: '#111' }}>{e.data.memo}</span>
+                        </div>
+                      )}
+                      {'status' in e.data && e.data.status && (
+                        <div style={{ marginTop: '12px', marginBottom: '6px' }}>
+                          <span style={{ fontSize: '12px', fontWeight: 700, color: '#555' }}>세트리스트</span>
+                        </div>
+                      )}
+                    </div>
+                  )}
+                </div>
+              )
+            }) : (
               <div>
                 <div style={{ display: 'flex', alignItems: 'baseline', gap: '0.75rem', marginBottom: '0.5rem' }}>
                   <span style={{ fontSize: '2.5rem', fontWeight: 900, lineHeight: 1, color: '#111' }}>

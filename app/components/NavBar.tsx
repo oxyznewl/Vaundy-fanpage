@@ -48,14 +48,14 @@ export default function NavBar() {
           left: 0,
           right: 0,
           overflow: 'hidden',
-          maxHeight: navOpen || navLocked ? '120px' : '0px',
+          maxHeight: navOpen || navLocked ? '95px' : '0px',
           transition: 'max-height 0.25s ease',
         }}
       >
         {/* 배경 이미지 */}
         <img src="/header_img.webp" alt="" style={{
           width: '100%',
-          height: '120px',
+          height: '95px',
           objectFit: 'cover',
           objectPosition: 'center',
           display: 'block',
@@ -68,17 +68,17 @@ export default function NavBar() {
           display: 'flex',
           alignItems: 'center',
           justifyContent: 'space-between',
-          paddingLeft: '6rem',
-          paddingRight: '550px',
+          paddingLeft: '4rem',
+          paddingRight: '500px',
         }}>
-          <div style={{ display: 'flex', gap: '4.5rem' }}>
+          <div style={{ display: 'flex', gap: '4rem' }}>
             {navItems.map(item => (
               <span key={item.label}
                 onClick={e => { e.stopPropagation(); router.push(item.path) }}
                 style={{
                   color: '#fff',
                   fontWeight: 800,
-                  fontSize: '1.5rem',
+                  fontSize: '1.2rem',
                   letterSpacing: '0.02em',
                   cursor: 'pointer',
                   whiteSpace: 'nowrap',
@@ -94,7 +94,7 @@ export default function NavBar() {
             style={{
               color: '#ff6b2b',
               fontWeight: 800,
-              fontSize: '1.5rem',
+              fontSize: '1.2rem',
               letterSpacing: '0.02em',
               textDecoration: 'none',
               whiteSpace: 'nowrap',

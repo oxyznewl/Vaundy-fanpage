@@ -11,19 +11,19 @@ export default function Footer() {
     <div style={{
       flexShrink: 0,
       borderTop: '2.4px solid #000',
-      padding: '0 0 0 4rem'
+      padding: '0 0 0 3rem'
     }}>
       {/* 슬라이딩 면책 문구 */}
       <div style={{
         overflow: 'hidden',
         whiteSpace: 'nowrap',
         borderBottom: '2.4px solid #000',
-        padding: '0.4rem 0',
+        padding: '0.1rem 0',
       }}>
         <span style={{
           display: 'inline-block',
           animation: 'marquee 40s linear infinite',
-          fontSize: '0.90rem',
+          fontSize: '0.75rem',
           color: '#ff0000',
         }}>
           {DISCLAIMER_TEXT}&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -41,11 +41,11 @@ export default function Footer() {
           <span key={item.label}
             onClick={() => router.push(item.path)}
             style={{
-              fontSize: '0.80rem',
+              fontSize: '0.7rem',
               color: '#333',
               cursor: 'pointer',
               fontWeight: 500,
-              padding: '0.5rem 1.3rem',
+              padding: '0.3rem 1.2rem',
               borderRight: '2.4px solid #000',
             }}>
             {item.label}

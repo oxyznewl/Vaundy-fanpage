@@ -21,7 +21,7 @@ export default function Home() {
       <div style={{
         flex: 1,
         overflow: 'hidden',
-        padding: `160px 2rem 0 2rem`,
+        padding: `120px 2rem 0 2rem`,
         transition: 'padding-top 0.25s ease',
       }}>
         <Calendar />
